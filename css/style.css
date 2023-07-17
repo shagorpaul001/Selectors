@@ -1,0 +1,44 @@
+a:visited {
+	color: pink;
+}
+P.intro {
+	background-color: yellow;
+}
+h2,p {
+	background-color: yellow;
+}
+
+p ~ ul {
+	background-color: #ff0000;
+}
+
+div + p {
+	background-color: yellow;
+}
+
+a:hover {
+	background-color: yellow;
+}
+
+p:last-of-type {
+	background: #ff0000;
+}
+/* Selects the second element of div siblings */
+div:nth-child(){
+	background: red;
+}
+/* Selects the second li element in a list */
+li:nth-child(2) {
+	background: lightgreen;
+}
+/* Selects every third element among any group of siblings */
+:nth-child(3) {
+	background: yellow;
+}
+input:valid {
+	background-color: yellow;
+}
+input:checked {
+	height: 50px;
+	width: 50%;
+}
